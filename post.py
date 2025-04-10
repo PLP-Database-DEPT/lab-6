@@ -10,7 +10,7 @@ data = response.json()
 conn = pymysql.connect(
     host="localhost",
     user="root",
-    password="", # Add your password
+    password="ella-bear004", # Add your password
     database="blog" 
 )
 cursor = conn.cursor()
