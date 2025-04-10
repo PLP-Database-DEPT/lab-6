@@ -10,8 +10,10 @@ data = response.json()
 conn = pymysql.connect(
     host="localhost",
     user="root",
-    password="", #Add your password
+    password="ella-bear004", #Add your password
     database="blog" 
+    # i created a databse called blog
+    # in mysql workbench and i imported the sql file from the folder into the database
 )
 cursor = conn.cursor()
 
